@@ -7,7 +7,7 @@ public class Operations {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
-        System.out.println(a + b);
+        System.out.println("Result: " + String.valueOf(a + b));
         scanner.close();
     }
 }
